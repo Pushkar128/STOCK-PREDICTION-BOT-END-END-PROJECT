@@ -20,10 +20,10 @@ logging.getLogger("uvicorn.error").setLevel(logging.ERROR)
 from core.indicators import compute_indicators, generate_signal
 
 # --- CONFIG ---
-API_KEY = "QtoPVyA1"
-CLIENT_ID = "AAAL039888"
-PASSWORD = "2025"
-TOTP_SECRET = "PHL7N7FAWYE3WXRDW2R55SWO5I" #PHL7N7FAWYE3WXRDW2R55SWO5I
+API_KEY = ""
+CLIENT_ID = ""
+PASSWORD = ""
+TOTP_SECRET = ""
 
 # --- DATABASE SETUP ---
 DATABASE_URL = "sqlite:///./trades.db"
